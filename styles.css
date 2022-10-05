@@ -5,14 +5,35 @@
     border-radius: 10px 0 0px 0px;
 }
 
+header {
+    display: inline-flex;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav li {
+    float: right;
+    list-style: none;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 body {
     background-color: black;
     color: #ffffff;
     font-family: Arial, sans-serif;
 }
 
-#gallery, #about {
+main {
     background-color: #ffffff;
+    color: black;
+    margin: 5px;
 }
 
 h1 {
