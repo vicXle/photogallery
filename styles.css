@@ -1,0 +1,21 @@
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 10px 0 0px 0px;
+}
+
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+#gallery, #about {
+    background-color: #ffffff;
+}
+
+h1 {
+    size: 40px;
+    color: #007d7b;
+}
