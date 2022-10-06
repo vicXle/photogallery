@@ -1,3 +1,7 @@
+html {
+    margin: 0 auto;
+    width: 1310px;
+}
 [href="#top"] {
     position: fixed;
     bottom: 0px;
@@ -6,17 +10,28 @@
 }
 
 header {
-    display: inline-flex;
+    display: inline;
+    margin: 10px;
 }
 
-nav ul {
-    display: inline-flex;
+h1 { 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+    margin-left: 40px;
+    padding-right: 100px;
 }
 
-nav li {
-    float: right;
+li { 
+    float: left;
+    padding-left: 100px;
+    padding-right: 15px;
     list-style: none;
-    
+    size: 20px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 nav a {
@@ -28,12 +43,33 @@ body {
     background-color: black;
     color: #ffffff;
     font-family: Arial, sans-serif;
+    padding: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 main {
     background-color: #ffffff;
     color: black;
     margin: 5px;
+    float: center;
+}
+
+img {
+    margin: 5px;
+}
+
+.small {
+    width: 420px;
+}
+
+.large {
+    height: 630px;
+}
+
+#gallery {
+    
+    width: 1000px;
 }
 
 h1 {
