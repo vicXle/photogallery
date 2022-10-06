@@ -20,6 +20,8 @@ h1 {
     float: left;
     margin-left: 40px;
     padding-right: 100px;
+    size: 40px;
+    color: #007d7b;
 }
 
 li { 
@@ -37,6 +39,10 @@ ul {
 nav a {
     color: white;
     text-decoration: none;
+}
+
+a:hover {
+    color: #007d7b;
 }
 
 body {
@@ -70,9 +76,4 @@ img {
 #gallery {
     
     width: 1000px;
-}
-
-h1 {
-    size: 40px;
-    color: #007d7b;
 }
