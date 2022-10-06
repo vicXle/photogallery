@@ -1,6 +1,6 @@
 html {
     margin: 0 auto;
-    width: 1310px;
+    width: 1310;
 }
 [href="#top"] {
     position: fixed;
@@ -49,20 +49,28 @@ body {
     background-color: black;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    padding: 25px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 0 80px;
+
 }
 
 main {
     background-color: #ffffff;
     color: black;
-    margin: 5px;
-    float: center;
+}
+
+h2 {
+    size: 40px;
+    color: #000000;
+}
+
+#about {
+    text-align: right;
+    display: inline-block;
+    margin: 10px;
 }
 
 img {
-    margin: 5px;
+    float: left;
 }
 
 .small {
@@ -70,10 +78,63 @@ img {
 }
 
 .large {
-    height: 630px;
+    width: 420px;
 }
 
 #gallery {
-    
-    width: 1000px;
+    width: 1300px;
+    display: inline-block;
+    flex: left;
+}
+
+.small, .large {
+    position: relative;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+.caption {
+    position: absolute;
+}
+
+#contact {
+    text-align: center;
+}
+
+aside h2 {
+    size: 40px;
+}
+
+aside p {
+    size: 20px;
+}
+
+label {
+    size: 16px;
+    float:left;
+    margin-left: 380px;
+}
+
+input {
+    width: 520px;
+    padding: 8px;
+    margin: 5px;
+    size: 16px;
+    color:#007d7b;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color:#007d7b;
+    font-weight: bold;
+}
+
+#submit {
+    background-color: #007d7b;
+    width: 300px;
+    color:#ffffff;
+    border-radius: 6px;
+    border-style: none;
+    padding: 9px;
+    size: 16px;
 }
