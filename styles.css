@@ -1,32 +1,47 @@
-html {
+body {
+    background-color: black;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
     margin: 0 auto;
-    width: 1310;
+    width: 1310px;
+
 }
+
 [href="#top"] {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    border-radius: 10px 0 0px 0px;
+    color: white;
+    background-color:#007d7b;
+    padding: 2px;
+    text-align: center;
+    width: 60px;
+    z-index:5;
+}
+
+[href="#top"]:hover {
+    background-color: white;
+    color:#007d7b;
 }
 
 header {
     display: inline;
-    margin: 10px;
+    margin: 50px;
 }
 
 h1 { 
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
     float: left;
-    margin-left: 40px;
-    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 200px;
     size: 40px;
     color: #007d7b;
 }
 
 li { 
     float: left;
-    padding-left: 100px;
+    padding-left: 150px;
     padding-right: 15px;
     list-style: none;
     size: 20px;
@@ -45,17 +60,19 @@ a:hover {
     color: #007d7b;
 }
 
-body {
-    background-color: black;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    margin: 0 80px;
-
-}
-
 main {
     background-color: #ffffff;
     color: black;
+    margin: 10px;
+    margin-top: 20px;
+    float: left;
+    margin-right: 8px;
+    width: 1310px;
+    
+}
+
+main p {
+    size: 20px;
 }
 
 h2 {
@@ -64,13 +81,31 @@ h2 {
 }
 
 #about {
-    text-align: right;
+    margin-left:8px;
     display: inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    width: 1300px;
+    text-align: right;
 }
 
-img {
+#about h2 {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left:10px;
+}
+
+#about p {
+    margin-top: 1px;
+    margin-right: 30px;
+    size: 20px;
+}
+
+
+#about img {
+    width: 850px;
     float: left;
+    margin: 2px;
+    margin-right: 60px;
 }
 
 .small {
@@ -82,27 +117,45 @@ img {
 }
 
 #gallery {
-    width: 1300px;
-    display: inline-block;
-    flex: left;
-}
-
-.small, .large {
-    position: relative;
+    margin-bottom: 6px;
     margin-left: 8px;
-    margin-bottom: 8px;
 }
 
-.caption {
+figure {
+    display: inline;
+    margin-left: 3px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+}
+
+figcaption {
     position: absolute;
+    display: inline;
+    margin: 5px 8px;
+}
+
+figure img {
+    margin-left: 3px;
+    margin-right: 0px;
+    margin-bottom: 3px;
+}
+
+.white {
+    color:#ffffff;
 }
 
 #contact {
     text-align: center;
 }
 
+form {
+    width: 530px;
+    margin:auto;
+}
+
 aside h2 {
     size: 40px;
+    color: white;
 }
 
 aside p {
@@ -112,13 +165,13 @@ aside p {
 label {
     size: 16px;
     float:left;
-    margin-left: 380px;
 }
 
 input {
-    width: 520px;
+    width: 530px;
     padding: 8px;
     margin: 5px;
+    margin-left: 0px;
     size: 16px;
     color:#007d7b;
     font-weight: bold;
@@ -137,4 +190,10 @@ input::placeholder {
     border-style: none;
     padding: 9px;
     size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
