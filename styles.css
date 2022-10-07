@@ -122,16 +122,25 @@ h2 {
 }
 
 figure {
-    display: inline;
+    display: inline-block;
     margin-left: 3px;
     margin-right: 0px;
     margin-bottom: 3px;
+    position: relative;
 }
 
 figcaption {
-    position: absolute;
-    display: inline;
-    margin: 5px 8px;
+    position:absolute;
+    margin: 5px 0px 0px 8px;
+}
+
+.white-bottom {
+    bottom: 10px;
+    right: 8px;
+}
+
+[class$="bleft"] {
+    bottom: 10px;
 }
 
 figure img {
@@ -140,7 +149,7 @@ figure img {
     margin-bottom: 3px;
 }
 
-.white {
+[class|="white"] {
     color:#ffffff;
 }
 
@@ -190,6 +199,10 @@ input::placeholder {
     border-style: none;
     padding: 9px;
     size: 16px;
+}
+
+#submit:hover {
+    cursor: pointer;
 }
 
 footer {
